@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Daftar Belanja</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Belanja Aja</h1>
+
+    <div class="input-group">
+      <input type="text" id="inputBarang" placeholder="Masukkan nama barang...">
+      <button onclick="tambahBarang()">Tambah</button>
+      <button onclick="cekHarga()"> Harga</button>
+    </div>
+
+    <ul id="belanjaan"></ul>
+
+    <p id="hasilHarga"></p>
+    <p id="totalHarga">Total: Rp0</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
